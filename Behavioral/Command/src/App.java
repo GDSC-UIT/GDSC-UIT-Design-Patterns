@@ -3,6 +3,8 @@ public class App {
         User user = new User("GDSC-UIT");
         CoffeeShopService service = new CoffeeShopService(user);
         service.doOrderAction("Coffee");
-        service.doPaymentAction("10.0");
+        service.doPaymentAction(10f);
     }
+
+    
 }
